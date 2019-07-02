@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>feet_meter_convert</title>
+</head>
+<body>
+Feet: <input id="feet" oninput="feet_to_meter()">
+Meter: <input id="meter" oninput="meter_to_feet()">
+</body>
+<script>
+    let feet = document.getElementById('feet');
+    let meter = document.getElementById('meter');
+
+    function feet_to_meter() {
+        meter.value = feet.value * 0.305;
+    }
+
+    function meter_to_feet() {
+        feet.value = meter.value * 3.279;
+
+    }
+</script>
+</html>
