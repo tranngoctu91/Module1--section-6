@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>check prime</title>
+</head>
+<body>
+The primes is smaller than:<input id="input_number" type="number">
+<button onclick="print_Prime()">PRINT PRIME</button><br>
+Result: <span id="result"></span>
+</body>
+<script>
+    function print_Prime() {
+        let number_of_prime = document.getElementById('input_number').value;
+        for (let i = 0; i < number_of_prime; i++) {
+            if (checkPrime(i) == true) {
+                document.getElementById('result').innerHTML += i + ", ";
+
+            }
+        }
+
+    }
+
+    function checkPrime(number) {
+
+        if (number < 2) {
+            return false;
+        } else {
+
+            for (let i = 2; i <= Math.sqrt(number); i++) {
+
+                if (number % i == 0) {
+                    return false;
+                }
+            }
+            return true;
+
+
+        }
+
+    }
+</script>
+</html>
