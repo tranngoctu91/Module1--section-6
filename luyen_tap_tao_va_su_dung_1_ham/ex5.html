@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ex5</title>
+</head>
+<body>
+<button onclick="checkBunchesOfStar(name_star)">CHECK</button>
+The name of bunch of stars: <p id="result"></p>
+</body>
+<script>
+
+    let result = document.getElementById('result');
+    let name_star = prompt("input the name of star");
+    let stars = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulu'];
+    let bunches_of_stars = ['Ursa', 'Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major'];
+
+    function checkBunchesOfStar(dxzxz) {
+        let check;
+        for (let i = 0; i < stars.length; i++) {
+            if (dxzxz === stars[i]) {
+                result.innerHTML = bunches_of_stars[i];
+                check = true;
+            }
+
+        }
+        if (!check) {
+            result.innerHTML = "bunch of stars not found";
+        }
+
+
+    }
+</script>
+
+</html>
