@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tim_gia_tri_nho_nhat_cua_mang</title>
+</head>
+<body>
+<input type="number" id="number">
+<button onclick="add_to_array()">ADD</button>
+<button onclick="findMin()">DISPLAY</button>
+<div id="result"></div>
+</body>
+<script>
+    let string_numbers = [];
+    let number = document.getElementById('number');
+    let result = document.getElementById('result');
+
+    function add_to_array() {
+        string_numbers.push(number.value);
+        console.log(string_numbers);
+    }
+
+
+    function findMin() {
+        let min = string_numbers[0];
+        for (let i = 1; i < string_numbers.length; i++) {
+            if (min > string_numbers[i]) {
+                min = string_numbers[i]
+            }
+        }
+        result.innerHTML = min;
+
+    }
+
+</script>
+</html>

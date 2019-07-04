@@ -7,7 +7,7 @@
 
 <body>
 Add new product
-<input id="add" >
+<input id="add" placeholder="New product">
 
 <button onclick="add_to_products(), displayProducts()">ADD</button>
 
@@ -30,7 +30,7 @@ Add new product
         display.innerHTML = '';
         for (let i = 0; i < products.length; i++) {
 
-            display.innerHTML += i + 1 + products[i] +
+            display.innerHTML +=   i + 1 + "<input type='text' value=' " + products[i] + "'>" +
 
                 "<button onclick='editProduct(this.id)' class='button' id= " + i + "  >EDIT</button>" +
                 "<button onclick='deleteProduct(this.id)' class='button' id= " + i + "  >DEL</button>";
