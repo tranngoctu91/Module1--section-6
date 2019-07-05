@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1715d8bf-c6a8-4356-9c54-c1e3bc867a64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/luyen_tap_tao_va_su_dung_1_ham.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex5.html" afterDir="false" />
+    <list default="true" id="f4cf275f-0e00-4ae6-a2b0-bf2dbd246be3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/temperature convert.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../luyen_tap_tao_va_su_dung_1_ham/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../luyen_tap_tao_va_su_dung_1_ham/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../quan_ly_san_pham/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../quan_ly_san_pham/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,7 +16,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/temperature convert.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,8 +41,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../../section5/tu_dien/tu_dien.html" />
-        <option value="$PROJECT_DIR$/ex5.html" />
+        <option value="$PROJECT_DIR$/temperature convert.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/lam_thuc_hanh_chuyen_doi_nhiet_do.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
       </list>
     </option>
   </component>
@@ -55,8 +71,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="luyen_tap_tao_va_su_dung_1_ham" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luyen_tap_tao_va_su_dung_1_ham" type="462c0819:PsiDirectoryNode" />
+              <item name="lam_thuc_hanh_chuyen_doi_nhiet_do" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lam_thuc_hanh_chuyen_doi_nhiet_do" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -67,7 +83,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -90,20 +105,21 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1715d8bf-c6a8-4356-9c54-c1e3bc867a64" name="Default Changelist" comment="" />
-      <created>1562204442354</created>
+      <changelist id="f4cf275f-0e00-4ae6-a2b0-bf2dbd246be3" name="Default Changelist" comment="" />
+      <created>1562296220693</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1562204442354</updated>
-      <workItem from="1562204443658" duration="3781000" />
+      <updated>1562296220693</updated>
+      <workItem from="1562296221896" duration="57000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3781000" />
+    <option name="totallyTimeSpent" value="57000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494382" />
@@ -128,17 +144,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../section5/tu_dien/tu_dien.html">
+    <entry file="file://$PROJECT_DIR$/temperature convert.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ex5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="40">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
